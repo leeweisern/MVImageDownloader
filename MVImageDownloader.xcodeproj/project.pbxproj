@@ -3,35 +3,135 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BFF0A0EB5BDF5C75B127A9 /* Pods_MVImageDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C5B575C8010B06FD9AED75 /* Pods_MVImageDownloader.framework */; };
+		5F85096B199F05A2471F8BFB /* Pods_MVImageDownloaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97C4428B919813E3265C2B1 /* Pods_MVImageDownloaderTests.framework */; };
+		8331A5EA22E97BCB0066D706 /* ImageDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331A5E922E97BCB0066D706 /* ImageDownloaderTests.swift */; };
+		8331A5EC22E97BCB0066D706 /* MVImageDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E27E1022E948AA00003114 /* MVImageDownloader.framework */; };
+		8331A5F322E97DE80066D706 /* MindValleyTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331A5F222E97DE70066D706 /* MindValleyTestHelper.swift */; };
+		838CE3BE22E98D4B000ABEF5 /* StubHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CE3BD22E98D4B000ABEF5 /* StubHelpers.swift */; };
 		83E27E1522E948AA00003114 /* MVImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E27E1322E948AA00003114 /* MVImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E27E3122E94B1800003114 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2122E94B1800003114 /* Storage.swift */; };
+		83E27E3222E94B1800003114 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2222E94B1800003114 /* ImageCache.swift */; };
+		83E27E3322E94B1800003114 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2322E94B1800003114 /* MemoryStorage.swift */; };
+		83E27E3422E94B1800003114 /* MindValleyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2522E94B1800003114 /* MindValleyManager.swift */; };
+		83E27E3522E94B1800003114 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2722E94B1800003114 /* Resource.swift */; };
+		83E27E3622E94B1800003114 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2922E94B1800003114 /* ImageDownloaderDelegate.swift */; };
+		83E27E3722E94B1800003114 /* MindValleyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2A22E94B1800003114 /* MindValleyError.swift */; };
+		83E27E3822E94B1800003114 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2B22E94B1800003114 /* SessionDataTask.swift */; };
+		83E27E3922E94B1800003114 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2C22E94B1800003114 /* ImageDownloader.swift */; };
+		83E27E3A22E94B1800003114 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2D22E94B1800003114 /* SessionDelegate.swift */; };
+		83E27E3B22E94B1800003114 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E2F22E94B1800003114 /* ExtensionHelpers.swift */; };
+		83E27E3C22E94B1800003114 /* UIImageView+MindValley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E3022E94B1800003114 /* UIImageView+MindValley.swift */; };
+		83E27E4222E94B4C00003114 /* Strongify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E3F22E94B4C00003114 /* Strongify.swift */; };
+		83E27E4322E94B4C00003114 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E4022E94B4C00003114 /* CallbackQueue.swift */; };
+		83E27E4422E94B4C00003114 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E27E4122E94B4C00003114 /* Delegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8331A5ED22E97BCB0066D706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E27E0722E948AA00003114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E27E0F22E948AA00003114;
+			remoteInfo = MVImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		08E38A9D8C63002F40C8BEF7 /* Pods-MVImageDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVImageDownloader.debug.xcconfig"; path = "Target Support Files/Pods-MVImageDownloader/Pods-MVImageDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7B8A321883422A1A76D8AF /* Pods-MVImageDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVImageDownloaderTests.release.xcconfig"; path = "Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F7EE382909266A4B7764E50 /* Pods-MVImageDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVImageDownloader.release.xcconfig"; path = "Target Support Files/Pods-MVImageDownloader/Pods-MVImageDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		8331A5E722E97BCB0066D706 /* MVImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8331A5E922E97BCB0066D706 /* ImageDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderTests.swift; sourceTree = "<group>"; };
+		8331A5EB22E97BCB0066D706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8331A5F222E97DE70066D706 /* MindValleyTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MindValleyTestHelper.swift; path = ../../../../../System/Volumes/Data/Users/kelvinleeweisern/Desktop/MVImageDownloader/MVImageDownloaderTests/MindValleyTestHelper.swift; sourceTree = "<group>"; };
+		838CE3BD22E98D4B000ABEF5 /* StubHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StubHelpers.swift; path = ../../../../../../System/Volumes/Data/Users/kelvinleeweisern/Desktop/MVImageDownloader/MVImageDownloaderTests/Utils/StubHelpers.swift; sourceTree = "<group>"; };
 		83E27E1022E948AA00003114 /* MVImageDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MVImageDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E27E1322E948AA00003114 /* MVImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVImageDownloader.h; sourceTree = "<group>"; };
 		83E27E1422E948AA00003114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E27E2122E94B1800003114 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		83E27E2222E94B1800003114 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		83E27E2322E94B1800003114 /* MemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		83E27E2522E94B1800003114 /* MindValleyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindValleyManager.swift; sourceTree = "<group>"; };
+		83E27E2722E94B1800003114 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		83E27E2922E94B1800003114 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
+		83E27E2A22E94B1800003114 /* MindValleyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindValleyError.swift; sourceTree = "<group>"; };
+		83E27E2B22E94B1800003114 /* SessionDataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataTask.swift; sourceTree = "<group>"; };
+		83E27E2C22E94B1800003114 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		83E27E2D22E94B1800003114 /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		83E27E2F22E94B1800003114 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
+		83E27E3022E94B1800003114 /* UIImageView+MindValley.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+MindValley.swift"; sourceTree = "<group>"; };
+		83E27E3F22E94B4C00003114 /* Strongify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strongify.swift; sourceTree = "<group>"; };
+		83E27E4022E94B4C00003114 /* CallbackQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackQueue.swift; sourceTree = "<group>"; };
+		83E27E4122E94B4C00003114 /* Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		95C5B575C8010B06FD9AED75 /* Pods_MVImageDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVImageDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97C4428B919813E3265C2B1 /* Pods_MVImageDownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVImageDownloaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FB67E3B0DF33D658B8DF9C /* Pods-MVImageDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVImageDownloaderTests.debug.xcconfig"; path = "Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8331A5E422E97BCB0066D706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8331A5EC22E97BCB0066D706 /* MVImageDownloader.framework in Frameworks */,
+				5F85096B199F05A2471F8BFB /* Pods_MVImageDownloaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83E27E0D22E948AA00003114 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BFF0A0EB5BDF5C75B127A9 /* Pods_MVImageDownloader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB5C402AA7A339E49930CBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08E38A9D8C63002F40C8BEF7 /* Pods-MVImageDownloader.debug.xcconfig */,
+				4F7EE382909266A4B7764E50 /* Pods-MVImageDownloader.release.xcconfig */,
+				E4FB67E3B0DF33D658B8DF9C /* Pods-MVImageDownloaderTests.debug.xcconfig */,
+				1A7B8A321883422A1A76D8AF /* Pods-MVImageDownloaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8331A5E822E97BCB0066D706 /* MVImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				838CE3BC22E98D41000ABEF5 /* Utils */,
+				8331A5E922E97BCB0066D706 /* ImageDownloaderTests.swift */,
+				8331A5F222E97DE70066D706 /* MindValleyTestHelper.swift */,
+				8331A5EB22E97BCB0066D706 /* Info.plist */,
+			);
+			path = MVImageDownloaderTests;
+			sourceTree = "<group>";
+		};
+		838CE3BC22E98D41000ABEF5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				838CE3BD22E98D4B000ABEF5 /* StubHelpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		83E27E0622E948AA00003114 = {
 			isa = PBXGroup;
 			children = (
 				83E27E1222E948AA00003114 /* MVImageDownloader */,
+				8331A5E822E97BCB0066D706 /* MVImageDownloaderTests */,
 				83E27E1122E948AA00003114 /* Products */,
+				1EB5C402AA7A339E49930CBE /* Pods */,
+				F9EDFB1746166AC966BADC60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				83E27E1022E948AA00003114 /* MVImageDownloader.framework */,
+				8331A5E722E97BCB0066D706 /* MVImageDownloaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +147,98 @@
 		83E27E1222E948AA00003114 /* MVImageDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				83E27E1F22E94B1800003114 /* MVLibrary */,
 				83E27E1322E948AA00003114 /* MVImageDownloader.h */,
 				83E27E1422E948AA00003114 /* Info.plist */,
 			);
 			path = MVImageDownloader;
+			sourceTree = "<group>";
+		};
+		83E27E1F22E94B1800003114 /* MVLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E3D22E94B4C00003114 /* Utitlity */,
+				83E27E2022E94B1800003114 /* Cache */,
+				83E27E2422E94B1800003114 /* General */,
+				83E27E2822E94B1800003114 /* Networking */,
+				83E27E2E22E94B1800003114 /* Extensions */,
+			);
+			path = MVLibrary;
+			sourceTree = "<group>";
+		};
+		83E27E2022E94B1800003114 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E2122E94B1800003114 /* Storage.swift */,
+				83E27E2222E94B1800003114 /* ImageCache.swift */,
+				83E27E2322E94B1800003114 /* MemoryStorage.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		83E27E2422E94B1800003114 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E2522E94B1800003114 /* MindValleyManager.swift */,
+				83E27E2622E94B1800003114 /* ImageSource */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		83E27E2622E94B1800003114 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E2722E94B1800003114 /* Resource.swift */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+		83E27E2822E94B1800003114 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E2922E94B1800003114 /* ImageDownloaderDelegate.swift */,
+				83E27E2A22E94B1800003114 /* MindValleyError.swift */,
+				83E27E2B22E94B1800003114 /* SessionDataTask.swift */,
+				83E27E2C22E94B1800003114 /* ImageDownloader.swift */,
+				83E27E2D22E94B1800003114 /* SessionDelegate.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		83E27E2E22E94B1800003114 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E2F22E94B1800003114 /* ExtensionHelpers.swift */,
+				83E27E3022E94B1800003114 /* UIImageView+MindValley.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		83E27E3D22E94B4C00003114 /* Utitlity */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E3E22E94B4C00003114 /* Strongify */,
+				83E27E4022E94B4C00003114 /* CallbackQueue.swift */,
+				83E27E4122E94B4C00003114 /* Delegate.swift */,
+			);
+			path = Utitlity;
+			sourceTree = "<group>";
+		};
+		83E27E3E22E94B4C00003114 /* Strongify */ = {
+			isa = PBXGroup;
+			children = (
+				83E27E3F22E94B4C00003114 /* Strongify.swift */,
+			);
+			path = Strongify;
+			sourceTree = "<group>";
+		};
+		F9EDFB1746166AC966BADC60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95C5B575C8010B06FD9AED75 /* Pods_MVImageDownloader.framework */,
+				D97C4428B919813E3265C2B1 /* Pods_MVImageDownloaderTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,10 +255,31 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8331A5E622E97BCB0066D706 /* MVImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8331A5EF22E97BCB0066D706 /* Build configuration list for PBXNativeTarget "MVImageDownloaderTests" */;
+			buildPhases = (
+				527415D44409C7968CF75E3C /* [CP] Check Pods Manifest.lock */,
+				8331A5E322E97BCB0066D706 /* Sources */,
+				8331A5E422E97BCB0066D706 /* Frameworks */,
+				8331A5E522E97BCB0066D706 /* Resources */,
+				486B53F1A3648F24EE27732D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8331A5EE22E97BCB0066D706 /* PBXTargetDependency */,
+			);
+			name = MVImageDownloaderTests;
+			productName = MVImageDownloaderTests;
+			productReference = 8331A5E722E97BCB0066D706 /* MVImageDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		83E27E0F22E948AA00003114 /* MVImageDownloader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E27E1822E948AA00003114 /* Build configuration list for PBXNativeTarget "MVImageDownloader" */;
 			buildPhases = (
+				1384663F1405BA9B22E85C6F /* [CP] Check Pods Manifest.lock */,
 				83E27E0B22E948AA00003114 /* Headers */,
 				83E27E0C22E948AA00003114 /* Sources */,
 				83E27E0D22E948AA00003114 /* Frameworks */,
@@ -90,9 +300,13 @@
 		83E27E0722E948AA00003114 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = MindValley;
 				TargetAttributes = {
+					8331A5E622E97BCB0066D706 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					83E27E0F22E948AA00003114 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -111,11 +325,19 @@
 			projectRoot = "";
 			targets = (
 				83E27E0F22E948AA00003114 /* MVImageDownloader */,
+				8331A5E622E97BCB0066D706 /* MVImageDownloaderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8331A5E522E97BCB0066D706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83E27E0E22E948AA00003114 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,17 +347,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1384663F1405BA9B22E85C6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVImageDownloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		486B53F1A3648F24EE27732D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527415D44409C7968CF75E3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVImageDownloaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		8331A5E322E97BCB0066D706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838CE3BE22E98D4B000ABEF5 /* StubHelpers.swift in Sources */,
+				8331A5F322E97DE80066D706 /* MindValleyTestHelper.swift in Sources */,
+				8331A5EA22E97BCB0066D706 /* ImageDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83E27E0C22E948AA00003114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E27E3322E94B1800003114 /* MemoryStorage.swift in Sources */,
+				83E27E3A22E94B1800003114 /* SessionDelegate.swift in Sources */,
+				83E27E3822E94B1800003114 /* SessionDataTask.swift in Sources */,
+				83E27E3222E94B1800003114 /* ImageCache.swift in Sources */,
+				83E27E3422E94B1800003114 /* MindValleyManager.swift in Sources */,
+				83E27E3522E94B1800003114 /* Resource.swift in Sources */,
+				83E27E4422E94B4C00003114 /* Delegate.swift in Sources */,
+				83E27E4322E94B4C00003114 /* CallbackQueue.swift in Sources */,
+				83E27E3122E94B1800003114 /* Storage.swift in Sources */,
+				83E27E4222E94B4C00003114 /* Strongify.swift in Sources */,
+				83E27E3722E94B1800003114 /* MindValleyError.swift in Sources */,
+				83E27E3B22E94B1800003114 /* ExtensionHelpers.swift in Sources */,
+				83E27E3922E94B1800003114 /* ImageDownloader.swift in Sources */,
+				83E27E3622E94B1800003114 /* ImageDownloaderDelegate.swift in Sources */,
+				83E27E3C22E94B1800003114 /* UIImageView+MindValley.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8331A5EE22E97BCB0066D706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E27E0F22E948AA00003114 /* MVImageDownloader */;
+			targetProxy = 8331A5ED22E97BCB0066D706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8331A5F022E97BCB0066D706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FB67E3B0DF33D658B8DF9C /* Pods-MVImageDownloaderTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UGCA3MSQC;
+				INFOPLIST_FILE = MVImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.MVImageDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8331A5F122E97BCB0066D706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7B8A321883422A1A76D8AF /* Pods-MVImageDownloaderTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UGCA3MSQC;
+				INFOPLIST_FILE = MVImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.MVImageDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		83E27E1622E948AA00003114 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -260,6 +617,7 @@
 		};
 		83E27E1922E948AA00003114 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E38A9D8C63002F40C8BEF7 /* Pods-MVImageDownloader.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -270,6 +628,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MVImageDownloader/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,6 +644,7 @@
 		};
 		83E27E1A22E948AA00003114 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7EE382909266A4B7764E50 /* Pods-MVImageDownloader.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +655,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MVImageDownloader/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +672,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8331A5EF22E97BCB0066D706 /* Build configuration list for PBXNativeTarget "MVImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8331A5F022E97BCB0066D706 /* Debug */,
+				8331A5F122E97BCB0066D706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		83E27E0A22E948AA00003114 /* Build configuration list for PBXProject "MVImageDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

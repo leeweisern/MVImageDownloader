@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001C57325A4AE433D578EA8458EC42FB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */; };
+		007F8DB8B549B998FDE3017EC13CCF0C /* LSStubResponseDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = C829148808DED0DB9407DF29344E148D /* LSStubResponseDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00802CEABAEE724A6DF0D37D9CCFC374 /* LSMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6272E1F6A4343339161D340DF173C718 /* LSMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD67E33665074F0DCC08E4A03314C8A /* NSURLRequest+LSHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC049E121851577E05E3AA4FC3CAFD9 /* NSURLRequest+LSHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11B26186E53405B52D6D71F1E4B3DDAF /* Pods-MVImageDownloader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4166A8A6D5477B719C3A59F49D2D52A7 /* Pods-MVImageDownloader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1518667F0C35770C42FD9DF42C785DEE /* ASIHTTPRequestStub.m in Sources */ = {isa = PBXBuildFile; fileRef = CACA1055DBD9415ADA3125D3F41C49DE /* ASIHTTPRequestStub.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1650C442C3C2FA098CE643C955AE2051 /* LSStubRequestDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 189032E5894D41CFBCE4DBFC92695A71 /* LSStubRequestDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B565CBCA0A9228A3ACCBC831B67295F /* LSDataMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 05560EBBFC6AE94A095A334B9C5273FF /* LSDataMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E7B628E924E0B642FCA56A0C46F576E /* LSStubRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 783608B73D763C534837BA8D6AC5FA32 /* LSStubRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F3D8050D8D00D6412291DEC796F8752 /* LSStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A19D56EDAFF0C5547F2F5375E484D226 /* LSStringMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F4DC64283F607FF0D804FD2585829FB /* LSNSURLHook.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C8FCC1B12F9925879ECEC0B94597B5 /* LSNSURLHook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2165D07C0FCF393EDBEFEDFE02A57275 /* NSString+Matcheable.h in Headers */ = {isa = PBXBuildFile; fileRef = 435CA4F9B6A384D06547D1E621D88594 /* NSString+Matcheable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2176E7A71E7A79B3D4061BA1B4A11D79 /* LSHTTPClientHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2C5C30107949BED35EEB47139183BB /* LSHTTPClientHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		245BAFA3C41A804B4998220BB0F00842 /* LSHTTPRequestDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F424179FCC6E7ED15922D445696300 /* LSHTTPRequestDiff.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		262AE0921C1B674759FAB01388969C7E /* Pods-MVImageDownloaderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BF9659DCCE8B4C2A18F3E77406E6C8 /* Pods-MVImageDownloaderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265EF9CE755A27BF4E7869E8B24A0468 /* LSStubResponseDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 367F892BFC0B9EB3DE6F10AF20A4CA20 /* LSStubResponseDSL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B4DFCCA1FD50775B830F4D56523CECE /* LSHTTPRequestDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 734ADAD91BC1C6EAC7576FE2387644BD /* LSHTTPRequestDiff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CF5D3FF2D04CA0C2450F31A6D024E37 /* LSHTTPStubURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F182E26168E5AD5867F6DC55787CBE0B /* LSHTTPStubURLProtocol.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		395C3F7F2DB07F754C132E79E2E7389D /* LSStringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F335E9214CC4B7FFF634DC81BD25DE /* LSStringMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C28A1B71A92352D2B0570741163833F /* NSData+Matcheable.h in Headers */ = {isa = PBXBuildFile; fileRef = EC04FEA4A17297A25A4E4DA4336A26F4 /* NSData+Matcheable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4169E02BE55D3569A8135FABEF3588E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		4A9A68BC793A87260FF54FEDC841E439 /* LSNSURLHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DA786453269036CB9F5EC8DD5C51E4 /* LSNSURLHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C764C5E9DE220AB567CBA4AC63120BB /* LSStubResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D128191E73C45FC2ADAA053DB3D2975C /* LSStubResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F6674C7BA49036DD7F99CDA49C5F9EA /* LSNocilla.h in Headers */ = {isa = PBXBuildFile; fileRef = 133840629B71524D00574499B696B61D /* LSNocilla.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55888D62588F22DB23EF6972A4526ADB /* LSStubResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBD6E2B0BC8EB1837FE21638E91D57D /* LSStubResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		578C829154ACF4D584BADD0307A92C4D /* LSNocilla.m in Sources */ = {isa = PBXBuildFile; fileRef = 641F3E7DE4F802F3230365E6006A9748 /* LSNocilla.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B383023CC3D3FF3DEFAFBE180DDBCEA /* NSRegularExpression+Matcheable.h in Headers */ = {isa = PBXBuildFile; fileRef = 093EEDC16E5DF26DCCF19A3B8A3909E4 /* NSRegularExpression+Matcheable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7EBBC918AFACBE1BF361FDBE2AAF7B /* LSMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B81CE1830F9010A7696E1C37AEB92768 /* LSMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C84B45FA85BB6A8C17C284C1B8D33B2 /* LSASIHTTPRequestHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7A37C4FD09FBA32435D5C9C544B36 /* LSASIHTTPRequestHook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D2FB8583C438A25F8A116A2E5F40EA7 /* Nocilla-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17894145432F9F61CD09D02A7B18308E /* Nocilla-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6180F1C9BAC7711AE40E226C2FBB2FB5 /* NSData+Nocilla.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF35089AF8A92265AA2A7DDD2CE0D3D /* NSData+Nocilla.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6371AA12DD28B621D8863AF5F517E0E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		65C67DB8CF5BF48C6368D9E0D6840C6A /* NSString+Matcheable.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D68CBE1F109BFBF0DE335F4EAB693A /* NSString+Matcheable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6AC91C28A21D1B194AB0F8618986B6F3 /* NSURLRequest+LSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 83130DED65BC995F883DC80FE87251FF /* NSURLRequest+LSHTTPRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C19CD2A119F45C375595C9705F362F5 /* LSNSURLSessionHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 551CDEA9EB16CA2409C2A6B0F40AC34A /* LSNSURLSessionHook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		71F9FAC800AC99FD6CD6713DAF04039B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		787822C2CD70F6ECC5E30C072C8C9089 /* LSHTTPClientHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B56976B5F15A56FA7BEE9FAECC40BA /* LSHTTPClientHook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		804375106012AA0F16C5C9670AC3CAB7 /* NSString+Nocilla.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBA0B12DECD5ED99AF8D2C017E8B6 /* NSString+Nocilla.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81C47626BFB3BDBD6EEDEA8B643AAEDF /* Pods-MVImageDownloaderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA88F2972D832F1F2FED35109CD242A /* Pods-MVImageDownloaderTests-dummy.m */; };
+		81DCC676336853BBF254A6D3B5427914 /* LSRegexMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F91BB0D25B4928AAC678754F7109EC9 /* LSRegexMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84BAB78AA3F21EB0C74C2E0118FC34E6 /* LSHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C02613A5E8206548B675F3A7509F06F5 /* LSHTTPRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88657473FC62FF0A9367CF1E671BE643 /* LSHTTPStubURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAB7CA50A1CDF021DF11E68B11D1F9D /* LSHTTPStubURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B2639F19C2B09525E5837BB87798FA5 /* NSURLRequest+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = AF065C274540B1CBC8308B12FE5187CC /* NSURLRequest+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		949C3D495FC0AE497D5D9E89BE112789 /* NSURLRequest+DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A5B514AD7C7A75CB61C22A44ADE4 /* NSURLRequest+DSL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A0FF199471C7C152B44AAB6033803C1D /* NSString+Nocilla.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F482198DFB592901015D31864112514 /* NSString+Nocilla.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C37D3747EBCD52774B13EB6E8BE08C /* NSData+Matcheable.m in Sources */ = {isa = PBXBuildFile; fileRef = A627D2CA2100D88EFFE7B272037EA453 /* NSData+Matcheable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC103565979A83619063BAFEB00E020D /* ASIHTTPRequestStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 157EB74CBBB52825973D5B96F152B9B8 /* ASIHTTPRequestStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACBE91959627CED93E5BF3BEF53DEA44 /* LSStubRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A6911B58CAF18C35551279C66896D3 /* LSStubRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE6FA9E1B60845DB249A83BCA18F1C99 /* LSASIHTTPRequestHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2899DDF05FE12F4ADE98307A774A5F /* LSASIHTTPRequestHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8E60BE0845BA92BBC6D5BB84FA7FB84 /* LSHTTPBody.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B0A63636FD8214A398B3404D84AC54 /* LSHTTPBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5D8864085F1E2DB1E30547211068C3 /* LSStubRequestDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B4CFF10DF03182F43D56026A73D0E6 /* LSStubRequestDSL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BEF00D0824432BCA804685FD131E72E5 /* LSHTTPRequestDSLRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D3FC778B6243050314AF1C87E94B01 /* LSHTTPRequestDSLRepresentation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1F2B1B8A9849953961B82D19C0CEB85 /* LSNSURLSessionHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 807AD6E21DC10E0C54E3DF32A5794532 /* LSNSURLSessionHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C92CEABCBA07133E132C4DF947F27BD5 /* NSRegularExpression+Matcheable.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F3F00B9547582AA9477D229640128 /* NSRegularExpression+Matcheable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCF92828566F7BC021301D45443C63E7 /* Nocilla.h in Headers */ = {isa = PBXBuildFile; fileRef = 415B96FA486C8CAAF7E83A0BD297C8BF /* Nocilla.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB576D5BA4433044E3803118F09491F /* LSASIHTTPRequestAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC79F44CBBA6751779536577B9D8CB0 /* LSASIHTTPRequestAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8943E3BE999DF991F99E34129F39CD3 /* LSRegexMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CD20B2A659E8A80130819F980B219 /* LSRegexMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DE134864B79C8A0A228D8030EE987722 /* LSHTTPRequestDSLRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1715EF0358AFA34599FC27EE8D18C907 /* LSHTTPRequestDSLRepresentation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E203024614AEDBBC4607574EC5933E16 /* Nocilla-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83313E47D1FD15C6F9307E3BFAF88DC2 /* Nocilla-dummy.m */; };
+		EC28A1B97F86A8E47CE4752A0BB3F354 /* NSData+Nocilla.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEBD6BEA0C6B78A749AB0B35F914493 /* NSData+Nocilla.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE0E1C94FB8BF4D84AEF00D4B45BA471 /* Pods-MVImageDownloader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44479964582BB21023A30BECA26992DD /* Pods-MVImageDownloader-dummy.m */; };
+		F0574811E25155781697AA8347A7DF93 /* LSASIHTTPRequestAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F4D2F81700699949990AA10CB193 /* LSASIHTTPRequestAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F0AE38B1E56A01203C3DFC015EB30E8B /* LSDataMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B48EE3687D91CCDC49766843C57E5B /* LSDataMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9595BE713A81823C159DF05189A8CF0 /* LSMatcheable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1648F883095E067C4D8A848EBF887766 /* LSMatcheable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB24EC36492887EDD24937359AF9246 /* LSHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 08ABBC814A1E26B319E32C1AEB201B49 /* LSHTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17789387A250CEAE9917DEFD2C2FD78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EFA5C63A1E5BDB884E54BB88CD48A6;
+			remoteInfo = "Pods-MVImageDownloader";
+		};
+		A8CAE57A0053293BBA0A693CA4C9FA77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA7F40F14A00A379415C1547251DDFA;
+			remoteInfo = Nocilla;
+		};
+		D24E57AA0ECBAFF64E2DB84AC332722B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA7F40F14A00A379415C1547251DDFA;
+			remoteInfo = Nocilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E0BA8B207047FB6495BB457E4FAC9D /* Pods-MVImageDownloader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVImageDownloader.modulemap"; sourceTree = "<group>"; };
+		05560EBBFC6AE94A095A334B9C5273FF /* LSDataMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSDataMatcher.m; path = Nocilla/Matchers/LSDataMatcher.m; sourceTree = "<group>"; };
+		08ABBC814A1E26B319E32C1AEB201B49 /* LSHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPResponse.h; path = Nocilla/Model/LSHTTPResponse.h; sourceTree = "<group>"; };
+		08D3FC778B6243050314AF1C87E94B01 /* LSHTTPRequestDSLRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSHTTPRequestDSLRepresentation.m; path = Nocilla/DSL/LSHTTPRequestDSLRepresentation.m; sourceTree = "<group>"; };
+		093EEDC16E5DF26DCCF19A3B8A3909E4 /* NSRegularExpression+Matcheable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRegularExpression+Matcheable.h"; path = "Nocilla/Matchers/NSRegularExpression+Matcheable.h"; sourceTree = "<group>"; };
+		0F2C5C30107949BED35EEB47139183BB /* LSHTTPClientHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPClientHook.h; path = Nocilla/Hooks/LSHTTPClientHook.h; sourceTree = "<group>"; };
+		0F482198DFB592901015D31864112514 /* NSString+Nocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Nocilla.h"; path = "Nocilla/Categories/NSString+Nocilla.h"; sourceTree = "<group>"; };
+		11B4CFF10DF03182F43D56026A73D0E6 /* LSStubRequestDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubRequestDSL.m; path = Nocilla/DSL/LSStubRequestDSL.m; sourceTree = "<group>"; };
+		133840629B71524D00574499B696B61D /* LSNocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSNocilla.h; path = Nocilla/LSNocilla.h; sourceTree = "<group>"; };
+		157EB74CBBB52825973D5B96F152B9B8 /* ASIHTTPRequestStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASIHTTPRequestStub.h; path = Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.h; sourceTree = "<group>"; };
+		1648F883095E067C4D8A848EBF887766 /* LSMatcheable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSMatcheable.h; path = Nocilla/Matchers/LSMatcheable.h; sourceTree = "<group>"; };
+		1715EF0358AFA34599FC27EE8D18C907 /* LSHTTPRequestDSLRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPRequestDSLRepresentation.h; path = Nocilla/DSL/LSHTTPRequestDSLRepresentation.h; sourceTree = "<group>"; };
+		17894145432F9F61CD09D02A7B18308E /* Nocilla-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nocilla-umbrella.h"; sourceTree = "<group>"; };
+		189032E5894D41CFBCE4DBFC92695A71 /* LSStubRequestDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStubRequestDSL.h; path = Nocilla/DSL/LSStubRequestDSL.h; sourceTree = "<group>"; };
+		1C6CD20B2A659E8A80130819F980B219 /* LSRegexMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSRegexMatcher.m; path = Nocilla/Matchers/LSRegexMatcher.m; sourceTree = "<group>"; };
+		1F3FBA0B12DECD5ED99AF8D2C017E8B6 /* NSString+Nocilla.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Nocilla.m"; path = "Nocilla/Categories/NSString+Nocilla.m"; sourceTree = "<group>"; };
+		21BF9659DCCE8B4C2A18F3E77406E6C8 /* Pods-MVImageDownloaderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVImageDownloaderTests-umbrella.h"; sourceTree = "<group>"; };
+		222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		28B48EE3687D91CCDC49766843C57E5B /* LSDataMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSDataMatcher.h; path = Nocilla/Matchers/LSDataMatcher.h; sourceTree = "<group>"; };
+		2CC049E121851577E05E3AA4FC3CAFD9 /* NSURLRequest+LSHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+LSHTTPRequest.m"; path = "Nocilla/Hooks/NSURLRequest/NSURLRequest+LSHTTPRequest.m"; sourceTree = "<group>"; };
+		367F892BFC0B9EB3DE6F10AF20A4CA20 /* LSStubResponseDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubResponseDSL.m; path = Nocilla/DSL/LSStubResponseDSL.m; sourceTree = "<group>"; };
+		37B56976B5F15A56FA7BEE9FAECC40BA /* LSHTTPClientHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSHTTPClientHook.m; path = Nocilla/Hooks/LSHTTPClientHook.m; sourceTree = "<group>"; };
+		39F335E9214CC4B7FFF634DC81BD25DE /* LSStringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStringMatcher.h; path = Nocilla/Matchers/LSStringMatcher.h; sourceTree = "<group>"; };
+		3BA88F2972D832F1F2FED35109CD242A /* Pods-MVImageDownloaderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVImageDownloaderTests-dummy.m"; sourceTree = "<group>"; };
+		3BE7A37C4FD09FBA32435D5C9C544B36 /* LSASIHTTPRequestHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSASIHTTPRequestHook.m; path = Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestHook.m; sourceTree = "<group>"; };
+		3DC3EAA3A87E65BBC44D8240CA80958C /* Nocilla.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nocilla.modulemap; sourceTree = "<group>"; };
+		3EB68F3DCA6575C8D3692551BE782EE4 /* Pods-MVImageDownloaderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVImageDownloaderTests-frameworks.sh"; sourceTree = "<group>"; };
+		404BD93072408A249D310FFEDB32D860 /* Nocilla-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nocilla-prefix.pch"; sourceTree = "<group>"; };
+		40D8640456F3E172F50D49BB0E3697E4 /* Pods_MVImageDownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MVImageDownloaderTests.framework; path = "Pods-MVImageDownloaderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		415B96FA486C8CAAF7E83A0BD297C8BF /* Nocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nocilla.h; path = Nocilla/Nocilla.h; sourceTree = "<group>"; };
+		4166A8A6D5477B719C3A59F49D2D52A7 /* Pods-MVImageDownloader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVImageDownloader-umbrella.h"; sourceTree = "<group>"; };
+		435CA4F9B6A384D06547D1E621D88594 /* NSString+Matcheable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Matcheable.h"; path = "Nocilla/Matchers/NSString+Matcheable.h"; sourceTree = "<group>"; };
+		44479964582BB21023A30BECA26992DD /* Pods-MVImageDownloader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVImageDownloader-dummy.m"; sourceTree = "<group>"; };
+		47F424179FCC6E7ED15922D445696300 /* LSHTTPRequestDiff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSHTTPRequestDiff.m; path = Nocilla/Diff/LSHTTPRequestDiff.m; sourceTree = "<group>"; };
+		4B92D01F5B82A8AE93189D4A82F32F18 /* Pods-MVImageDownloaderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVImageDownloaderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DAB7CA50A1CDF021DF11E68B11D1F9D /* LSHTTPStubURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPStubURLProtocol.h; path = Nocilla/Hooks/NSURLRequest/LSHTTPStubURLProtocol.h; sourceTree = "<group>"; };
+		52820ECBD83E3CE39D15FE40EDA5FC19 /* Nocilla.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nocilla.xcconfig; sourceTree = "<group>"; };
+		551CDEA9EB16CA2409C2A6B0F40AC34A /* LSNSURLSessionHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSNSURLSessionHook.m; path = Nocilla/Hooks/NSURLSession/LSNSURLSessionHook.m; sourceTree = "<group>"; };
+		58058ADDA651D8C543FB805374A4E365 /* Nocilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nocilla.framework; path = Nocilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5858A69EDCFC0331B2896504FCEB6FCC /* Pods-MVImageDownloaderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVImageDownloaderTests.modulemap"; sourceTree = "<group>"; };
+		5AA1EA88E046B24A62427C1580877B09 /* Pods_MVImageDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MVImageDownloader.framework; path = "Pods-MVImageDownloader.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC79F44CBBA6751779536577B9D8CB0 /* LSASIHTTPRequestAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSASIHTTPRequestAdapter.h; path = Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestAdapter.h; sourceTree = "<group>"; };
+		5DB2F4D2F81700699949990AA10CB193 /* LSASIHTTPRequestAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSASIHTTPRequestAdapter.m; path = Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestAdapter.m; sourceTree = "<group>"; };
+		6272E1F6A4343339161D340DF173C718 /* LSMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSMatcher.h; path = Nocilla/Matchers/LSMatcher.h; sourceTree = "<group>"; };
+		62D68CBE1F109BFBF0DE335F4EAB693A /* NSString+Matcheable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Matcheable.m"; path = "Nocilla/Matchers/NSString+Matcheable.m"; sourceTree = "<group>"; };
+		630EAB9BF916EFFBC0B2AC63A47C8E27 /* Pods-MVImageDownloader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVImageDownloader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		641F3E7DE4F802F3230365E6006A9748 /* LSNocilla.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSNocilla.m; path = Nocilla/LSNocilla.m; sourceTree = "<group>"; };
+		69F512502EA636ACFEB474367137D775 /* Pods-MVImageDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVImageDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF35089AF8A92265AA2A7DDD2CE0D3D /* NSData+Nocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Nocilla.h"; path = "Nocilla/Categories/NSData+Nocilla.h"; sourceTree = "<group>"; };
+		734ADAD91BC1C6EAC7576FE2387644BD /* LSHTTPRequestDiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPRequestDiff.h; path = Nocilla/Diff/LSHTTPRequestDiff.h; sourceTree = "<group>"; };
+		783608B73D763C534837BA8D6AC5FA32 /* LSStubRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStubRequest.h; path = Nocilla/Stubs/LSStubRequest.h; sourceTree = "<group>"; };
+		7C79A9B818B60CFE435699BE17E94086 /* Pods-MVImageDownloaderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVImageDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		7F28A5B514AD7C7A75CB61C22A44ADE4 /* NSURLRequest+DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+DSL.m"; path = "Nocilla/Hooks/NSURLRequest/NSURLRequest+DSL.m"; sourceTree = "<group>"; };
+		7F91BB0D25B4928AAC678754F7109EC9 /* LSRegexMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSRegexMatcher.h; path = Nocilla/Matchers/LSRegexMatcher.h; sourceTree = "<group>"; };
+		807AD6E21DC10E0C54E3DF32A5794532 /* LSNSURLSessionHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSNSURLSessionHook.h; path = Nocilla/Hooks/NSURLSession/LSNSURLSessionHook.h; sourceTree = "<group>"; };
+		83130DED65BC995F883DC80FE87251FF /* NSURLRequest+LSHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+LSHTTPRequest.h"; path = "Nocilla/Hooks/NSURLRequest/NSURLRequest+LSHTTPRequest.h"; sourceTree = "<group>"; };
+		83313E47D1FD15C6F9307E3BFAF88DC2 /* Nocilla-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nocilla-dummy.m"; sourceTree = "<group>"; };
+		8540C2F11C431C27956BB40F8FE6C12F /* Pods-MVImageDownloaderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVImageDownloaderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88176C000BCE988EDCDFF395840409D7 /* Nocilla-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nocilla-Info.plist"; sourceTree = "<group>"; };
+		8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8E2899DDF05FE12F4ADE98307A774A5F /* LSASIHTTPRequestHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSASIHTTPRequestHook.h; path = Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestHook.h; sourceTree = "<group>"; };
+		96DA786453269036CB9F5EC8DD5C51E4 /* LSNSURLHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSNSURLHook.h; path = Nocilla/Hooks/NSURLRequest/LSNSURLHook.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19D56EDAFF0C5547F2F5375E484D226 /* LSStringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStringMatcher.m; path = Nocilla/Matchers/LSStringMatcher.m; sourceTree = "<group>"; };
+		A627D2CA2100D88EFFE7B272037EA453 /* NSData+Matcheable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Matcheable.m"; path = "Nocilla/Matchers/NSData+Matcheable.m"; sourceTree = "<group>"; };
+		ACBD6E2B0BC8EB1837FE21638E91D57D /* LSStubResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStubResponse.h; path = Nocilla/Stubs/LSStubResponse.h; sourceTree = "<group>"; };
+		AF065C274540B1CBC8308B12FE5187CC /* NSURLRequest+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+DSL.h"; path = "Nocilla/Hooks/NSURLRequest/NSURLRequest+DSL.h"; sourceTree = "<group>"; };
+		B0339B6322E08A810F6392F4C23EF454 /* Pods-MVImageDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVImageDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		B4A6911B58CAF18C35551279C66896D3 /* LSStubRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubRequest.m; path = Nocilla/Stubs/LSStubRequest.m; sourceTree = "<group>"; };
+		B81CE1830F9010A7696E1C37AEB92768 /* LSMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSMatcher.m; path = Nocilla/Matchers/LSMatcher.m; sourceTree = "<group>"; };
+		BF03BFB3E072FE243E29567610BAE618 /* Pods-MVImageDownloader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVImageDownloader-Info.plist"; sourceTree = "<group>"; };
+		C02613A5E8206548B675F3A7509F06F5 /* LSHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPRequest.h; path = Nocilla/Model/LSHTTPRequest.h; sourceTree = "<group>"; };
+		C5B0A63636FD8214A398B3404D84AC54 /* LSHTTPBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSHTTPBody.h; path = Nocilla/Model/LSHTTPBody.h; sourceTree = "<group>"; };
+		C829148808DED0DB9407DF29344E148D /* LSStubResponseDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LSStubResponseDSL.h; path = Nocilla/DSL/LSStubResponseDSL.h; sourceTree = "<group>"; };
+		CACA1055DBD9415ADA3125D3F41C49DE /* ASIHTTPRequestStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASIHTTPRequestStub.m; path = Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.m; sourceTree = "<group>"; };
+		D0A21D4A88ED6B4206E6528199EB0386 /* Pods-MVImageDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVImageDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		D0C8FCC1B12F9925879ECEC0B94597B5 /* LSNSURLHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSNSURLHook.m; path = Nocilla/Hooks/NSURLRequest/LSNSURLHook.m; sourceTree = "<group>"; };
+		D128191E73C45FC2ADAA053DB3D2975C /* LSStubResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSStubResponse.m; path = Nocilla/Stubs/LSStubResponse.m; sourceTree = "<group>"; };
+		D7032AFBAEBCC14DC00EA1C2A61092D2 /* Pods-MVImageDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVImageDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD7AA06C36E91498180FF8E8040E4368 /* Pods-MVImageDownloader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVImageDownloader-acknowledgements.plist"; sourceTree = "<group>"; };
+		E52F3F00B9547582AA9477D229640128 /* NSRegularExpression+Matcheable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRegularExpression+Matcheable.m"; path = "Nocilla/Matchers/NSRegularExpression+Matcheable.m"; sourceTree = "<group>"; };
+		EC04FEA4A17297A25A4E4DA4336A26F4 /* NSData+Matcheable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Matcheable.h"; path = "Nocilla/Matchers/NSData+Matcheable.h"; sourceTree = "<group>"; };
+		F182E26168E5AD5867F6DC55787CBE0B /* LSHTTPStubURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSHTTPStubURLProtocol.m; path = Nocilla/Hooks/NSURLRequest/LSHTTPStubURLProtocol.m; sourceTree = "<group>"; };
+		FBEBD6BEA0C6B78A749AB0B35F914493 /* NSData+Nocilla.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Nocilla.m"; path = "Nocilla/Categories/NSData+Nocilla.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668F464DD55D0A02CDF0CD4A09D75FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6371AA12DD28B621D8863AF5F517E0E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30FCCF90060B206FDB9400411D0652E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4169E02BE55D3569A8135FABEF3588E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1101ABDD921DDE2F867231C9B8C7484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001C57325A4AE433D578EA8458EC42FB /* CFNetwork.framework in Frameworks */,
+				71F9FAC800AC99FD6CD6713DAF04039B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07876895C695D5C0BF2B77255BB54017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58058ADDA651D8C543FB805374A4E365 /* Nocilla.framework */,
+				5AA1EA88E046B24A62427C1580877B09 /* Pods_MVImageDownloader.framework */,
+				40D8640456F3E172F50D49BB0E3697E4 /* Pods_MVImageDownloaderTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EB7B72A19672C078885884201D7050F /* Pods-MVImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				03E0BA8B207047FB6495BB457E4FAC9D /* Pods-MVImageDownloader.modulemap */,
+				630EAB9BF916EFFBC0B2AC63A47C8E27 /* Pods-MVImageDownloader-acknowledgements.markdown */,
+				DD7AA06C36E91498180FF8E8040E4368 /* Pods-MVImageDownloader-acknowledgements.plist */,
+				44479964582BB21023A30BECA26992DD /* Pods-MVImageDownloader-dummy.m */,
+				BF03BFB3E072FE243E29567610BAE618 /* Pods-MVImageDownloader-Info.plist */,
+				4166A8A6D5477B719C3A59F49D2D52A7 /* Pods-MVImageDownloader-umbrella.h */,
+				D0A21D4A88ED6B4206E6528199EB0386 /* Pods-MVImageDownloader.debug.xcconfig */,
+				B0339B6322E08A810F6392F4C23EF454 /* Pods-MVImageDownloader.release.xcconfig */,
+			);
+			name = "Pods-MVImageDownloader";
+			path = "Target Support Files/Pods-MVImageDownloader";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E34DCC8E2CF86B8D72232914781A840D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23F9CEF0E9D5D0606E2557D887091706 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3EAA3A87E65BBC44D8240CA80958C /* Nocilla.modulemap */,
+				52820ECBD83E3CE39D15FE40EDA5FC19 /* Nocilla.xcconfig */,
+				83313E47D1FD15C6F9307E3BFAF88DC2 /* Nocilla-dummy.m */,
+				88176C000BCE988EDCDFF395840409D7 /* Nocilla-Info.plist */,
+				404BD93072408A249D310FFEDB32D860 /* Nocilla-prefix.pch */,
+				17894145432F9F61CD09D02A7B18308E /* Nocilla-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Nocilla";
+			sourceTree = "<group>";
+		};
+		50C768F7668B7116B5C07DDAEECE4DCF /* Nocilla */ = {
+			isa = PBXGroup;
+			children = (
+				157EB74CBBB52825973D5B96F152B9B8 /* ASIHTTPRequestStub.h */,
+				CACA1055DBD9415ADA3125D3F41C49DE /* ASIHTTPRequestStub.m */,
+				5AC79F44CBBA6751779536577B9D8CB0 /* LSASIHTTPRequestAdapter.h */,
+				5DB2F4D2F81700699949990AA10CB193 /* LSASIHTTPRequestAdapter.m */,
+				8E2899DDF05FE12F4ADE98307A774A5F /* LSASIHTTPRequestHook.h */,
+				3BE7A37C4FD09FBA32435D5C9C544B36 /* LSASIHTTPRequestHook.m */,
+				28B48EE3687D91CCDC49766843C57E5B /* LSDataMatcher.h */,
+				05560EBBFC6AE94A095A334B9C5273FF /* LSDataMatcher.m */,
+				C5B0A63636FD8214A398B3404D84AC54 /* LSHTTPBody.h */,
+				0F2C5C30107949BED35EEB47139183BB /* LSHTTPClientHook.h */,
+				37B56976B5F15A56FA7BEE9FAECC40BA /* LSHTTPClientHook.m */,
+				C02613A5E8206548B675F3A7509F06F5 /* LSHTTPRequest.h */,
+				734ADAD91BC1C6EAC7576FE2387644BD /* LSHTTPRequestDiff.h */,
+				47F424179FCC6E7ED15922D445696300 /* LSHTTPRequestDiff.m */,
+				1715EF0358AFA34599FC27EE8D18C907 /* LSHTTPRequestDSLRepresentation.h */,
+				08D3FC778B6243050314AF1C87E94B01 /* LSHTTPRequestDSLRepresentation.m */,
+				08ABBC814A1E26B319E32C1AEB201B49 /* LSHTTPResponse.h */,
+				4DAB7CA50A1CDF021DF11E68B11D1F9D /* LSHTTPStubURLProtocol.h */,
+				F182E26168E5AD5867F6DC55787CBE0B /* LSHTTPStubURLProtocol.m */,
+				1648F883095E067C4D8A848EBF887766 /* LSMatcheable.h */,
+				6272E1F6A4343339161D340DF173C718 /* LSMatcher.h */,
+				B81CE1830F9010A7696E1C37AEB92768 /* LSMatcher.m */,
+				133840629B71524D00574499B696B61D /* LSNocilla.h */,
+				641F3E7DE4F802F3230365E6006A9748 /* LSNocilla.m */,
+				96DA786453269036CB9F5EC8DD5C51E4 /* LSNSURLHook.h */,
+				D0C8FCC1B12F9925879ECEC0B94597B5 /* LSNSURLHook.m */,
+				807AD6E21DC10E0C54E3DF32A5794532 /* LSNSURLSessionHook.h */,
+				551CDEA9EB16CA2409C2A6B0F40AC34A /* LSNSURLSessionHook.m */,
+				7F91BB0D25B4928AAC678754F7109EC9 /* LSRegexMatcher.h */,
+				1C6CD20B2A659E8A80130819F980B219 /* LSRegexMatcher.m */,
+				39F335E9214CC4B7FFF634DC81BD25DE /* LSStringMatcher.h */,
+				A19D56EDAFF0C5547F2F5375E484D226 /* LSStringMatcher.m */,
+				783608B73D763C534837BA8D6AC5FA32 /* LSStubRequest.h */,
+				B4A6911B58CAF18C35551279C66896D3 /* LSStubRequest.m */,
+				189032E5894D41CFBCE4DBFC92695A71 /* LSStubRequestDSL.h */,
+				11B4CFF10DF03182F43D56026A73D0E6 /* LSStubRequestDSL.m */,
+				ACBD6E2B0BC8EB1837FE21638E91D57D /* LSStubResponse.h */,
+				D128191E73C45FC2ADAA053DB3D2975C /* LSStubResponse.m */,
+				C829148808DED0DB9407DF29344E148D /* LSStubResponseDSL.h */,
+				367F892BFC0B9EB3DE6F10AF20A4CA20 /* LSStubResponseDSL.m */,
+				415B96FA486C8CAAF7E83A0BD297C8BF /* Nocilla.h */,
+				EC04FEA4A17297A25A4E4DA4336A26F4 /* NSData+Matcheable.h */,
+				A627D2CA2100D88EFFE7B272037EA453 /* NSData+Matcheable.m */,
+				6DF35089AF8A92265AA2A7DDD2CE0D3D /* NSData+Nocilla.h */,
+				FBEBD6BEA0C6B78A749AB0B35F914493 /* NSData+Nocilla.m */,
+				093EEDC16E5DF26DCCF19A3B8A3909E4 /* NSRegularExpression+Matcheable.h */,
+				E52F3F00B9547582AA9477D229640128 /* NSRegularExpression+Matcheable.m */,
+				435CA4F9B6A384D06547D1E621D88594 /* NSString+Matcheable.h */,
+				62D68CBE1F109BFBF0DE335F4EAB693A /* NSString+Matcheable.m */,
+				0F482198DFB592901015D31864112514 /* NSString+Nocilla.h */,
+				1F3FBA0B12DECD5ED99AF8D2C017E8B6 /* NSString+Nocilla.m */,
+				AF065C274540B1CBC8308B12FE5187CC /* NSURLRequest+DSL.h */,
+				7F28A5B514AD7C7A75CB61C22A44ADE4 /* NSURLRequest+DSL.m */,
+				83130DED65BC995F883DC80FE87251FF /* NSURLRequest+LSHTTPRequest.h */,
+				2CC049E121851577E05E3AA4FC3CAFD9 /* NSURLRequest+LSHTTPRequest.m */,
+				23F9CEF0E9D5D0606E2557D887091706 /* Support Files */,
+			);
+			name = Nocilla;
+			path = Nocilla;
+			sourceTree = "<group>";
+		};
+		7DE62E1B8EB2C960294DB640811C88CB /* Pods-MVImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5858A69EDCFC0331B2896504FCEB6FCC /* Pods-MVImageDownloaderTests.modulemap */,
+				4B92D01F5B82A8AE93189D4A82F32F18 /* Pods-MVImageDownloaderTests-acknowledgements.markdown */,
+				8540C2F11C431C27956BB40F8FE6C12F /* Pods-MVImageDownloaderTests-acknowledgements.plist */,
+				3BA88F2972D832F1F2FED35109CD242A /* Pods-MVImageDownloaderTests-dummy.m */,
+				3EB68F3DCA6575C8D3692551BE782EE4 /* Pods-MVImageDownloaderTests-frameworks.sh */,
+				7C79A9B818B60CFE435699BE17E94086 /* Pods-MVImageDownloaderTests-Info.plist */,
+				21BF9659DCCE8B4C2A18F3E77406E6C8 /* Pods-MVImageDownloaderTests-umbrella.h */,
+				69F512502EA636ACFEB474367137D775 /* Pods-MVImageDownloaderTests.debug.xcconfig */,
+				D7032AFBAEBCC14DC00EA1C2A61092D2 /* Pods-MVImageDownloaderTests.release.xcconfig */,
+			);
+			name = "Pods-MVImageDownloaderTests";
+			path = "Target Support Files/Pods-MVImageDownloaderTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				F92A409DD1F517F669772C7429EED530 /* Pods */,
+				07876895C695D5C0BF2B77255BB54017 /* Products */,
+				EAC2B6EC482FE014BFE23FF3F9A3D2FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E34DCC8E2CF86B8D72232914781A840D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */,
+				222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAC2B6EC482FE014BFE23FF3F9A3D2FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB7B72A19672C078885884201D7050F /* Pods-MVImageDownloader */,
+				7DE62E1B8EB2C960294DB640811C88CB /* Pods-MVImageDownloaderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F92A409DD1F517F669772C7429EED530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C768F7668B7116B5C07DDAEECE4DCF /* Nocilla */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		087E1F56BC4A47E9EE813100C322AE0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B26186E53405B52D6D71F1E4B3DDAF /* Pods-MVImageDownloader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424D68E4EDC9C71B9151A87F738DA686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262AE0921C1B674759FAB01388969C7E /* Pods-MVImageDownloaderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B948947F0CFF5900736C12A0093F70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC103565979A83619063BAFEB00E020D /* ASIHTTPRequestStub.h in Headers */,
+				CFB576D5BA4433044E3803118F09491F /* LSASIHTTPRequestAdapter.h in Headers */,
+				AE6FA9E1B60845DB249A83BCA18F1C99 /* LSASIHTTPRequestHook.h in Headers */,
+				F0AE38B1E56A01203C3DFC015EB30E8B /* LSDataMatcher.h in Headers */,
+				B8E60BE0845BA92BBC6D5BB84FA7FB84 /* LSHTTPBody.h in Headers */,
+				2176E7A71E7A79B3D4061BA1B4A11D79 /* LSHTTPClientHook.h in Headers */,
+				84BAB78AA3F21EB0C74C2E0118FC34E6 /* LSHTTPRequest.h in Headers */,
+				2B4DFCCA1FD50775B830F4D56523CECE /* LSHTTPRequestDiff.h in Headers */,
+				DE134864B79C8A0A228D8030EE987722 /* LSHTTPRequestDSLRepresentation.h in Headers */,
+				FDB24EC36492887EDD24937359AF9246 /* LSHTTPResponse.h in Headers */,
+				88657473FC62FF0A9367CF1E671BE643 /* LSHTTPStubURLProtocol.h in Headers */,
+				F9595BE713A81823C159DF05189A8CF0 /* LSMatcheable.h in Headers */,
+				00802CEABAEE724A6DF0D37D9CCFC374 /* LSMatcher.h in Headers */,
+				4F6674C7BA49036DD7F99CDA49C5F9EA /* LSNocilla.h in Headers */,
+				4A9A68BC793A87260FF54FEDC841E439 /* LSNSURLHook.h in Headers */,
+				C1F2B1B8A9849953961B82D19C0CEB85 /* LSNSURLSessionHook.h in Headers */,
+				81DCC676336853BBF254A6D3B5427914 /* LSRegexMatcher.h in Headers */,
+				395C3F7F2DB07F754C132E79E2E7389D /* LSStringMatcher.h in Headers */,
+				1E7B628E924E0B642FCA56A0C46F576E /* LSStubRequest.h in Headers */,
+				1650C442C3C2FA098CE643C955AE2051 /* LSStubRequestDSL.h in Headers */,
+				55888D62588F22DB23EF6972A4526ADB /* LSStubResponse.h in Headers */,
+				007F8DB8B549B998FDE3017EC13CCF0C /* LSStubResponseDSL.h in Headers */,
+				5D2FB8583C438A25F8A116A2E5F40EA7 /* Nocilla-umbrella.h in Headers */,
+				CCF92828566F7BC021301D45443C63E7 /* Nocilla.h in Headers */,
+				3C28A1B71A92352D2B0570741163833F /* NSData+Matcheable.h in Headers */,
+				6180F1C9BAC7711AE40E226C2FBB2FB5 /* NSData+Nocilla.h in Headers */,
+				5B383023CC3D3FF3DEFAFBE180DDBCEA /* NSRegularExpression+Matcheable.h in Headers */,
+				2165D07C0FCF393EDBEFEDFE02A57275 /* NSString+Matcheable.h in Headers */,
+				A0FF199471C7C152B44AAB6033803C1D /* NSString+Nocilla.h in Headers */,
+				8B2639F19C2B09525E5837BB87798FA5 /* NSURLRequest+DSL.h in Headers */,
+				6AC91C28A21D1B194AB0F8618986B6F3 /* NSURLRequest+LSHTTPRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0433EEFD3F9092DB6C3D4FC17DAB93DB /* Pods-MVImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D73BB9FEE58CE4958B8AC1CD1B35083 /* Build configuration list for PBXNativeTarget "Pods-MVImageDownloaderTests" */;
+			buildPhases = (
+				424D68E4EDC9C71B9151A87F738DA686 /* Headers */,
+				A4634F7C797A07093BD5C4EBAFD5751E /* Sources */,
+				C30FCCF90060B206FDB9400411D0652E /* Frameworks */,
+				AC51B078EFE053827D101CBA9AF506B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F7FB00B0E61C27B6289E5B42BE59A6B /* PBXTargetDependency */,
+				B99B43CF3C2C012B40D725B997B2B719 /* PBXTargetDependency */,
+			);
+			name = "Pods-MVImageDownloaderTests";
+			productName = "Pods-MVImageDownloaderTests";
+			productReference = 40D8640456F3E172F50D49BB0E3697E4 /* Pods_MVImageDownloaderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64EFA5C63A1E5BDB884E54BB88CD48A6 /* Pods-MVImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30521A42365D352A86F6AAA39BAE45FE /* Build configuration list for PBXNativeTarget "Pods-MVImageDownloader" */;
+			buildPhases = (
+				087E1F56BC4A47E9EE813100C322AE0F /* Headers */,
+				44E83F1B235B95FCC89AB79B0F5926CF /* Sources */,
+				668F464DD55D0A02CDF0CD4A09D75FB1 /* Frameworks */,
+				0ED8AA9737E8EC4A14D05DFEC4A9AF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206FE2BF7C7B197ECE2CF862BD982706 /* PBXTargetDependency */,
+			);
+			name = "Pods-MVImageDownloader";
+			productName = "Pods-MVImageDownloader";
+			productReference = 5AA1EA88E046B24A62427C1580877B09 /* Pods_MVImageDownloader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACA7F40F14A00A379415C1547251DDFA /* Nocilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89ED0DD96D720E910D065F246696E196 /* Build configuration list for PBXNativeTarget "Nocilla" */;
+			buildPhases = (
+				A8B948947F0CFF5900736C12A0093F70 /* Headers */,
+				8C241C95640CC558E10B146366CDC2B6 /* Sources */,
+				E1101ABDD921DDE2F867231C9B8C7484 /* Frameworks */,
+				B04725FBA51B796926F73E2744BF50F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nocilla;
+			productName = Nocilla;
+			productReference = 58058ADDA651D8C543FB805374A4E365 /* Nocilla.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07876895C695D5C0BF2B77255BB54017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA7F40F14A00A379415C1547251DDFA /* Nocilla */,
+				64EFA5C63A1E5BDB884E54BB88CD48A6 /* Pods-MVImageDownloader */,
+				0433EEFD3F9092DB6C3D4FC17DAB93DB /* Pods-MVImageDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ED8AA9737E8EC4A14D05DFEC4A9AF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC51B078EFE053827D101CBA9AF506B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04725FBA51B796926F73E2744BF50F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E83F1B235B95FCC89AB79B0F5926CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0E1C94FB8BF4D84AEF00D4B45BA471 /* Pods-MVImageDownloader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C241C95640CC558E10B146366CDC2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518667F0C35770C42FD9DF42C785DEE /* ASIHTTPRequestStub.m in Sources */,
+				F0574811E25155781697AA8347A7DF93 /* LSASIHTTPRequestAdapter.m in Sources */,
+				5C84B45FA85BB6A8C17C284C1B8D33B2 /* LSASIHTTPRequestHook.m in Sources */,
+				1B565CBCA0A9228A3ACCBC831B67295F /* LSDataMatcher.m in Sources */,
+				787822C2CD70F6ECC5E30C072C8C9089 /* LSHTTPClientHook.m in Sources */,
+				245BAFA3C41A804B4998220BB0F00842 /* LSHTTPRequestDiff.m in Sources */,
+				BEF00D0824432BCA804685FD131E72E5 /* LSHTTPRequestDSLRepresentation.m in Sources */,
+				2CF5D3FF2D04CA0C2450F31A6D024E37 /* LSHTTPStubURLProtocol.m in Sources */,
+				5B7EBBC918AFACBE1BF361FDBE2AAF7B /* LSMatcher.m in Sources */,
+				578C829154ACF4D584BADD0307A92C4D /* LSNocilla.m in Sources */,
+				1F4DC64283F607FF0D804FD2585829FB /* LSNSURLHook.m in Sources */,
+				6C19CD2A119F45C375595C9705F362F5 /* LSNSURLSessionHook.m in Sources */,
+				D8943E3BE999DF991F99E34129F39CD3 /* LSRegexMatcher.m in Sources */,
+				1F3D8050D8D00D6412291DEC796F8752 /* LSStringMatcher.m in Sources */,
+				ACBE91959627CED93E5BF3BEF53DEA44 /* LSStubRequest.m in Sources */,
+				BE5D8864085F1E2DB1E30547211068C3 /* LSStubRequestDSL.m in Sources */,
+				4C764C5E9DE220AB567CBA4AC63120BB /* LSStubResponse.m in Sources */,
+				265EF9CE755A27BF4E7869E8B24A0468 /* LSStubResponseDSL.m in Sources */,
+				E203024614AEDBBC4607574EC5933E16 /* Nocilla-dummy.m in Sources */,
+				A6C37D3747EBCD52774B13EB6E8BE08C /* NSData+Matcheable.m in Sources */,
+				EC28A1B97F86A8E47CE4752A0BB3F354 /* NSData+Nocilla.m in Sources */,
+				C92CEABCBA07133E132C4DF947F27BD5 /* NSRegularExpression+Matcheable.m in Sources */,
+				65C67DB8CF5BF48C6368D9E0D6840C6A /* NSString+Matcheable.m in Sources */,
+				804375106012AA0F16C5C9670AC3CAB7 /* NSString+Nocilla.m in Sources */,
+				949C3D495FC0AE497D5D9E89BE112789 /* NSURLRequest+DSL.m in Sources */,
+				0BD67E33665074F0DCC08E4A03314C8A /* NSURLRequest+LSHTTPRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4634F7C797A07093BD5C4EBAFD5751E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C47626BFB3BDBD6EEDEA8B643AAEDF /* Pods-MVImageDownloaderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206FE2BF7C7B197ECE2CF862BD982706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nocilla;
+			target = ACA7F40F14A00A379415C1547251DDFA /* Nocilla */;
+			targetProxy = D24E57AA0ECBAFF64E2DB84AC332722B /* PBXContainerItemProxy */;
+		};
+		9F7FB00B0E61C27B6289E5B42BE59A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nocilla;
+			target = ACA7F40F14A00A379415C1547251DDFA /* Nocilla */;
+			targetProxy = A8CAE57A0053293BBA0A693CA4C9FA77 /* PBXContainerItemProxy */;
+		};
+		B99B43CF3C2C012B40D725B997B2B719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MVImageDownloader";
+			target = 64EFA5C63A1E5BDB884E54BB88CD48A6 /* Pods-MVImageDownloader */;
+			targetProxy = 17789387A250CEAE9917DEFD2C2FD78F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B727155637E69A5C72C9255E9D5340E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F512502EA636ACFEB474367137D775 /* Pods-MVImageDownloaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1E72C86BD18A03439810077F893E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A21D4A88ED6B4206E6528199EB0386 /* Pods-MVImageDownloader.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVImageDownloader/Pods-MVImageDownloader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVImageDownloader/Pods-MVImageDownloader.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE718909E2C3E00AF62162E179A6190B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52820ECBD83E3CE39D15FE40EDA5FC19 /* Nocilla.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nocilla/Nocilla-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nocilla/Nocilla-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Nocilla/Nocilla.modulemap";
+				PRODUCT_MODULE_NAME = Nocilla;
+				PRODUCT_NAME = Nocilla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA0CC62D474460F874952E8AFE569128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52820ECBD83E3CE39D15FE40EDA5FC19 /* Nocilla.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nocilla/Nocilla-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nocilla/Nocilla-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Nocilla/Nocilla.modulemap";
+				PRODUCT_MODULE_NAME = Nocilla;
+				PRODUCT_NAME = Nocilla;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC00B5CA598C0A16F10E48902A661BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0339B6322E08A810F6392F4C23EF454 /* Pods-MVImageDownloader.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVImageDownloader/Pods-MVImageDownloader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVImageDownloader/Pods-MVImageDownloader.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2FDDC2B6ADA5CCA466F8B1A15CCCF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7032AFBAEBCC14DC00EA1C2A61092D2 /* Pods-MVImageDownloaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVImageDownloaderTests/Pods-MVImageDownloaderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30521A42365D352A86F6AAA39BAE45FE /* Build configuration list for PBXNativeTarget "Pods-MVImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E72C86BD18A03439810077F893E331 /* Debug */,
+				DC00B5CA598C0A16F10E48902A661BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D73BB9FEE58CE4958B8AC1CD1B35083 /* Build configuration list for PBXNativeTarget "Pods-MVImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B727155637E69A5C72C9255E9D5340E8 /* Debug */,
+				E2FDDC2B6ADA5CCA466F8B1A15CCCF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ED0DD96D720E910D065F246696E196 /* Build configuration list for PBXNativeTarget "Nocilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE718909E2C3E00AF62162E179A6190B /* Debug */,
+				DA0CC62D474460F874952E8AFE569128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
