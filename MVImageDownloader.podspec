@@ -13,6 +13,6 @@ The image downloader is a customizable image request handler. It handles asynchr
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/leeweisern/MVImageDownloader.git", :tag => "1.0.0" }
   spec.source_files  = "MVImageDownloader/**/*.swift"
-  swift_version  = "5.0"
+  swift_versions  = ["5.0"]
 
 end
